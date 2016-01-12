@@ -20,6 +20,11 @@
   text-shadow: 2px 2px #000000;
 }
 
+.item p {
+  text-align: center;
+  padding-left: 40px;
+}
+
 .term:hover {
   cursor: pointer;
 }
