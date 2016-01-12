@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".term").click(function() {
-    $(".hiddn").toggle();
+    $(".hiddn").fadeToggle();
   });
 
   $(".carousel-control").click(function() {
@@ -8,4 +8,4 @@ $(document).ready(function() {
   });
 });
 
-//Great idea putting your flashcards in a carousel! Saved a lot of time not having to add invidual jQuery strings for each item. 
+//Great idea putting your flashcards in a carousel! Saved a lot of time not having to add invidual jQuery strings for each item.
