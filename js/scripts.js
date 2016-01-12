@@ -1,10 +1,12 @@
 $(document).ready(function() {
   $(".term").click(function() {
+    $(".space").toggle();
     $(".hiddn").fadeToggle();
   });
 
   $(".carousel-control").click(function() {
     $(".hiddn").hide();
+    $(".space").show();
   });
 
 });

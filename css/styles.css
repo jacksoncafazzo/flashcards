@@ -28,3 +28,7 @@
 .term:hover {
   cursor: pointer;
 }
+
+.bottomright {
+  text-align: right;
+}
